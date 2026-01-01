@@ -11,11 +11,12 @@ document = [
     "virat is highest run scorer",
     "Dhoni is captain of csk",
     "Modi is prime minister of India",
-    "India is the most populated country of the world"
+    "India is the most populated country of the world",
+    "satyadarsh lund"
 ]
 
 
-query = "Where do most human live"
+query = "satyadarsh kon hai"
 
 document_vector = embedding.embed_documents(document)
 query_vector = embedding.embed_query(query)

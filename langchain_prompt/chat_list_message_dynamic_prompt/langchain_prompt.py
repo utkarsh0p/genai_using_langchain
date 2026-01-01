@@ -23,7 +23,6 @@ with open('chat_history.txt') as f:
     store = f.readlines()
     chat_history.extend(store)
 
-
 prompt = chat_template.invoke({
     'chat_history':chat_history,
     'query':'where is my refund',
@@ -31,7 +30,8 @@ prompt = chat_template.invoke({
 })
 
 
-print(model.invoke(prompt).content)
+# print(model.invoke(prompt).content)
+print(chat_history)
 
 """
     Message placeholder is special placeholder used in chatprompttemplate to insert previous chat at runtime
