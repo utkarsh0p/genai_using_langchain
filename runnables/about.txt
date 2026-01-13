@@ -1,0 +1,18 @@
+A Runnable in LangChain is a block that takes input, does some work, and gives output 
+— like a small AI pipeline step.
+
+1=>WHY CHAINS WERE INTRODUCED
+
+-there are several chains which langchain provide like llmchain where you just have to give few things as input
+and you will get the output without any extra stuff to do
+
+2=>WHY IT FAILED
+
+-because it the components langchain made were not compatiable to integrate properly
+
+3=>THEN CAME RUNNABLES
+
+-proper integration , same common interface ( most common invoke )
+
+
+RUNNABLES  takes input -> process -> output ( and  the workflow came out is also a runnables to it also can be connected )
