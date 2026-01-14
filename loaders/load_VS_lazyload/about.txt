@@ -1,0 +1,4 @@
+load loads all at once 
+lazy load loads on demans 
+
+so when usin small content use load but to be fast ( when we use the large pdf or the directory) we use lazy load
