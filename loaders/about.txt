@@ -1,0 +1,31 @@
+What are Document Loaders?
+
+Document Loaders are tools that:
+
+👉 Read data (files, websites, PDFs, etc.)
+👉 Convert it into Document objects (text + metadata)
+
+What do they do?
+
+They:
+
+Open the file / web page
+
+Extract the text
+
+Wrap it into Document format
+
+Return a list of Documents
+
+Why we use them?
+
+Because AI can only understand text,
+and data comes in many forms (PDF, CSV, web, etc.).
+
+Few common loaders
+Loader	Reads
+TextLoader	.txt files
+PyPDFLoader	PDF files
+CSVLoader	CSV files
+WebBaseLoader	Websites
+UnstructuredLoader	Many formats
