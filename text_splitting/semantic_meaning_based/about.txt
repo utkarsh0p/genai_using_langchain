@@ -1,0 +1,35 @@
+Farmers were working hard in the fields, preparing the soil and planting seeds for the next season. 
+The sun was bright, and the air smelled of earth and fresh grass. 
+The Indian Premier League (IPL) is the biggest cricket league in the world. 
+People all over the world watch the matches and cheer for their favourite teams.
+
+Terrorism is a big danger to peace and safety. 
+It causes harm to people and creates fear in cities and villages. 
+When such attacks happen, they leave behind pain and sadness. 
+To fight terrorism, we need strong laws, alert security forces, and support from people who care about peace and safety.
+
+
+WHAT ( about the above para)
+
+so we can see that both the para has completely differect thing (even inside content is not realted)
+
+
+SOlUTION
+
+descision making for splitting on the basis of the meaning 
+
+they use sliding window approach to compare and see the cosine similarity
+if the similarity is greatly affected they know this is another sentence
+
+
+
+
+SemanticChunker is:
+
+Experimental
+
+Less stable
+
+Sometimes gives inconsistent splits
+
+So it’s not the best choice for production or serious projects yet.
