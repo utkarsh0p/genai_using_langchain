@@ -1,0 +1,14 @@
+so here we give the chunk size and it takes care of the chunking without loosing meaning of the words
+
+1-first it splits in paragraphs and compares the chunk size
+2-then in sentences (line change i.e /n) and compares the chunk size
+3-then it splits in the words and compares the chunk size 
+4-then it splits in the characters
+
+THEN
+
+it compares the characters , words , sentences and keeps them lower than the chunk size 
+and merges them accordingly and if the merging comes greator it will not do it and give that chunk as it is
+
+How it works
+- what i felt like is it seems like merge sort
