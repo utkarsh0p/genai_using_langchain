@@ -1,0 +1,9 @@
+Breaking big text into small chunks 
+-in bigger inputs llm do not give the optimal answer
+-or even hallucinate sometime
+
+we will learn four 
+-length based
+-text structure based
+-document structure based
+-semantic meaning based

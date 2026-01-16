@@ -1,0 +1,12 @@
+Length-based text splitting means breaking long text into smaller pieces based on a fixed size (like number of tokens or words) so that AI models can process it easily.
+
+
+Chunk size taken 5 in the below example
+
+Text:
+my name is utkarsh singh 
+and i want to be a software engineer
+when i was in class 12 i came to know about this cs field and soon enough i took interest in it
+
+After splitting:
+['my na', 'me is utka', 'rsh singh', 'and i', 'want to be', 'a softwar', 'e engineer', 'when', 'i was in c', 'lass 12 i', 'came to kn', 'ow about t', 'his cs fie', 'ld and soo', 'n enough i', 'took inte', 'rest in it']
