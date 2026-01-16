@@ -1,0 +1,10 @@
+let say the document we got is in some other format 
+let say a chunk of code 
+
+Regular text splitting is not ok
+----same as recursive but special case-----
+    --codes 
+    --markdowns
+
+add extra layer of the splitting like 
+-split in the classe / functions before the recursive text splitting
