@@ -1,0 +1,19 @@
+What is a Retriever?
+
+A retriever is the part of RAG that finds the right information for the AI.
+
+It:
+
+Searches your documents
+
+Picks the most relevant pieces
+
+Sends them to the llmchain
+
+
+Retriever
+can be categorized in 2
+1->retriever are based on what kind of data source  ( data source)
+2->based on search mechanism( searching strategy)
+
+there are way too many retriever available in langchain like 20 to 30 or something

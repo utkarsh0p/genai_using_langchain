@@ -36,7 +36,7 @@ doc5 = Document(
 
 vector_store = Chroma(
     embedding_function=embeddings,
-    persist_directory='my_chroma_db',
+    persist_directory='./database/my_chroma_db',
     collection_name='sample'
 )
 
