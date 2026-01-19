@@ -1,0 +1,13 @@
+What MMR does (simple)
+
+MMR tries to give results that are:
+
+Relevant to your query
+
+Not too similar to each other
+
+So you get diverse + useful answers.
+
+
+
+designed to give the relevant and non redundant answers
