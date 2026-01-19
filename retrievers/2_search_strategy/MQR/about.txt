@@ -1,0 +1,59 @@
+MultiQuery Retriever is a smart upgrade to normal search.
+
+Problem with normal search
+
+If your query is:
+
+“Best IPL batter”
+
+The embedding might miss:
+
+“Top run scorer”
+
+“Most consistent batsman”
+
+“Great finisher”
+
+So you get limited results.
+
+What MultiQuery Retriever does
+
+It:
+
+Uses an LLM
+
+Rewrites your query into multiple versions
+
+Searches for each one
+
+Merges the results
+
+Example
+
+Original:
+
+“Best IPL batter”
+
+LLM creates:
+
+“Top IPL run scorer”
+
+“Most consistent IPL batsman”
+
+“Great IPL batting performance”
+
+Then all are searched.
+
+Why it’s useful
+
+Better coverage
+
+Fewer missed docs
+
+Smarter retrieval
+
+
+
+
+
+my query will be passed to llm and llm will generate few question based on my question
