@@ -1,0 +1,9 @@
+tools are python function (or api) which are packaged in a way that the llm can understand and call when needed
+
+
+llm -> only speak ( brain + mouth)
+tools -> limbs to the llm so it can performs works on my behalf
+
+both combine to make agent (llm + tool)
+
+tools -> 1)built in tools (provided by langchain), 2) custom tools 
