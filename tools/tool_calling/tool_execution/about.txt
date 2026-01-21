@@ -1,0 +1,7 @@
+llm do not runs or use the tools they suggest us ( or langchain) that this tool can be used
+and we run the tool on the inputs also suggested by the llm
+and send it back to the llm and llm give the ouput
+
+making a illusion like llm just used the tool 
+
+input->llm-> suggest tools-> langchain uses the tools and invoke the llm
